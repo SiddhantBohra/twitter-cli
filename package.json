@@ -1,0 +1,23 @@
+{
+  "name": "node-twitter-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twit-stream",
+    "twitter-cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "twit": "^2.2.11",
+    "yargs": "^13.2.4"
+  },
+  "bin": {
+    "twit-stream": "./bin/index.js"
+  }
+}
